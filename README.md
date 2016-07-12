@@ -5,7 +5,7 @@
 
 1. add Twitter API keys and secrets to ```twitterOauth.py```
 2. add user IDs to ```user_list.csv```
-3. run the following command in the shell. 
+3. run ```getTweets.py``` in the shell. 
 ```shell
 python getTweets.py user_list.csv
 ```
