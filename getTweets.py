@@ -2,10 +2,6 @@ from twitterOauth import *
 import sys
 import json
 
-
-
-
-
 inputFileName=sys.argv[1]
 start=int(sys.argv[2])
 userIds = None
@@ -50,7 +46,7 @@ with open(inputFileName+'_tweets_'+str(start),'w') as outputFile:
             for content in allTweetsOfCurrentUser:
                 outputFile.write(content+'\n')
             outputFile.flush()
-        sys.stdout.write('\r %d/%d done                               \n'%(i,numUserIds))
+        sys.stdout.write('\r %d/%d done     \n'%(i,numUserIds))
         sys.stdout.flush()
 
 
