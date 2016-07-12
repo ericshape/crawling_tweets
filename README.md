@@ -1,5 +1,5 @@
-# crawling tweets
-> crawling tweets via specific user IDs
+# Crawling Tweets
+> Crawling tweets via specific user IDs
 
 ## Getting started
 
