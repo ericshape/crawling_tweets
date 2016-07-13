@@ -3,7 +3,7 @@
 
 ## Getting started
 
-1. add Twitter API keys and secrets to ```twitterOauth.py```.
+1. add Twitter API keys and secrets to ```twitterOauth.py```. You will need to [create a Twitter application](https://apps.twitter.com/).
 2. add user IDs to ```user_list.csv```.
 3. run ```getTweets.py``` in the shell. 
 ```shell
